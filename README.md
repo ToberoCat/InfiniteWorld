@@ -19,12 +19,12 @@ reducing lag.
 ## Layer types
 > A layer can contain data or modify already existing one
 
-###The data layer
+##The data layer
 This layer type is supposed to create the base data, 
 that will later be used to render the terrain. 
 For example, a height map layer creates the noise map, for terrain generation
 
-###The data adapter
+##The data adapter
 This layer changes the provided base layer. 
 The HeightDataAdapter as example just multiplies the noise value based 
 on a animation curve, to raise / lower the terrain and normalizes it,
