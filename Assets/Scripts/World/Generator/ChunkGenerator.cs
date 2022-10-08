@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.World.Generator.Layer;
+﻿using Assets.Scripts.World.Chunks;
+using Assets.Scripts.World.Generator.Layer;
 using UnityEngine;
 
 namespace Assets.Scripts.World.Generator

@@ -3,7 +3,7 @@ using Assets.Scripts.World.Generator;
 using Assets.Scripts.World.Generator.Layer;
 using UnityEngine;
 
-namespace Assets.Scripts.World
+namespace Assets.Scripts.World.Chunks
 {
     public class Chunk : MonoBehaviour
     {

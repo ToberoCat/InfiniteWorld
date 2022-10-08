@@ -1,4 +1,6 @@
-﻿namespace Assets.Scripts.World.Generator.Layer
+﻿using Assets.Scripts.World.Chunks;
+
+namespace Assets.Scripts.World.Generator.Layer
 {
     public interface ILayer
     {

@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.ProcGen.Noise;
+using Assets.Scripts.World.Chunks;
 using UnityEngine;
 
 namespace Assets.Scripts.World.Generator.Layer

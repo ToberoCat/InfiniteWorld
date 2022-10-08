@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Assets.Scripts.Helper;
+using Assets.Scripts.World.Chunks;
 using Assets.Scripts.World.Generator;
 using Assets.Scripts.World.Generator.Layer;
 using Assets.Scripts.World.Settings;

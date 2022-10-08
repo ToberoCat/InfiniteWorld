@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.ProcGen.Noise;
+using Assets.Scripts.World.Chunks;
 using Assets.Scripts.World.Settings;
 using UnityEngine;
 using UnityEngine.Tilemaps;

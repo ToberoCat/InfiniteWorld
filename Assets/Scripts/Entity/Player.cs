@@ -2,6 +2,7 @@
 using System.Linq;
 using Assets.Scripts.Helper;
 using Assets.Scripts.World;
+using Assets.Scripts.World.Chunks;
 using UnityEngine;
 
 namespace Assets.Scripts.Player
