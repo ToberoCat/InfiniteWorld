@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352730e7938dbe644959f01c2a3f51dd, type: 3}
+  m_Name: World
+  m_EditorClassIdentifier: 
+  TerrainSettings:
+    NoiseSettings:
+      Lacunarity: 1
+      NormalizeMode: 1
+      Octaves: 4
+      Persistence: 0.365
+      SampleCentre: {x: 0, y: 0}
+      Scale: 30
+      Seed: 0
+    HeightMultiplier:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  TileSettings:
+    LandMassTiles:
+    - Name: Super Deep Water
+      Tile: {fileID: 11400000, guid: cef544c324e53cb4fa1c5cbe4a99bf7b, type: 2}
+      Height: 0.1
+    - Name: Deep Water
+      Tile: {fileID: 11400000, guid: 1d665af723ff7f04d9ae5ffc2672cf37, type: 2}
+      Height: 0.2
+    - Name: Close Water
+      Tile: {fileID: 11400000, guid: ed31ea7df1310ef42990c39da9550128, type: 2}
+      Height: 0.25
+    - Name: Shallow Water
+      Tile: {fileID: 11400000, guid: b28a6c0b9f6c4ac409804c4adb4975ad, type: 2}
+      Height: 0.3
+    - Name: Sand
+      Tile: {fileID: 11400000, guid: e8b5dcc57240f084cacca84e0abf1a33, type: 2}
+      Height: 0.4
+    - Name: Sandy Grass
+      Tile: {fileID: 11400000, guid: e1ca1e4f50340e940a444ccb3bca5499, type: 2}
+      Height: 0.6
+    - Name: Grass
+      Tile: {fileID: 11400000, guid: cc6401294686d2649a06ab34d75268df, type: 2}
+      Height: 1
